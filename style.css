@@ -1,0 +1,73 @@
+.navbar-brand{
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.navbar{
+    font-family: Verdana;
+    font-size: 1em;
+}
+.nav-item:hover{
+    color: azure;
+    background-color:  rgb(19, 59, 59);
+    border-radius: 5px;
+    transition: background-color 0.25s;
+}
+.nav-item:active{
+    background-color: rgb(47, 124, 98);
+}
+.dropdown-item:hover{
+    color: azure;
+    background-color: rgb(42, 71, 71);
+}
+.dropdown-item:active{
+    background-color: rgb(47, 124, 98);
+}
+.col-md-3{
+    text-align: center;
+}
+.col-md-8{
+    text-align: center;
+    margin: auto;
+}
+.col-sm-6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    color: white;
+}
+.bgintro {
+    background-image: url(img/bg-intro.png);
+}
+.signInBox{
+    background-color: rgb(46, 73, 73);
+    color: azure;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#signInBtn{
+    background-color: rgb(25, 135, 84);
+    color: azure;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#signInBtn:hover{
+    background-color: rgb(21, 115, 71);
+}
+#signInBtn:active{
+    background-color: rgb(19, 59, 59);
+}
+.loginImage{
+    background-image: url(img/signInImage.png);
+}
+#cancelBtn{
+    background-color: rgb(161, 161, 161);
+    color: azure;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#cancelBtn:hover{
+    background-color: rgb(77, 77, 77);
+}
+#cancelBtn:active{
+    background-color: rgb(161, 161, 161);
+}
